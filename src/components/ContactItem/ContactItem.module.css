@@ -1,0 +1,15 @@
+.list_item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.list_btn {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.list_btn:hover,
+.list_btn:focus {
+  background-color: blue;
+  color: white;
+}
